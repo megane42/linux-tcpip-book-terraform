@@ -1,0 +1,9 @@
+locals {
+  region   = "ap-northeast-1"
+  key_name = "foo"
+
+  ssh_ingress_cidr_blocks = [
+    "xxx.xxx.xxx.xxx/32",
+    "yyy.yyy.yyy.yyy/32",
+  ]
+}
